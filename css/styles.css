@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    background-color: white;
+}
+
+
+/*maybe we should use vector graphics and svg files?*/
+
+#bg {
+    background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/1 background_main.png');
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+p {
+    color: white;
+    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/background_generic.png');*/
+}
+
+#nav_bar {
+    overflow: auto;
+    height: 100%;
+    width: 18.7%;
+    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/menu_frame.png');*/
+}
+
+#button_bg {
+    background-size: 100% 100%;
+    background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/2 behind_button_boxes.png');
+    margin-left: 23.7%;
+    top: 23%;
+    position: relative;
+    height: 56%;
+    width: 58%;
+}
+
+#nav_bar button {
+    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/button.png');*/
+}
+
+#main_box {
+    position: absolute;
+    background-image: url('../Gui_portfolio_final/Menu_Assembly/background_generic.png');
+    bottom: 3.5%;
+    right: 3.1%;
+    height: 75.6%;
+    width: 75.5%;
+}
