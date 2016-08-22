@@ -19,7 +19,7 @@ p {
     /*background-image: url('../Gui_portfolio_final/Menu_Assembly/background_generic.png');*/
 }
 
-#nav_bar {
+#outer_nav_box {
     overflow: auto;
     height: 100%;
     width: 18.7%;
@@ -37,14 +37,20 @@ p {
 }
 
 #nav_bar button {
-    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/button.png');*/
+    position: absolute;
+    background-image: url('../Gui_portfolio_final/Menu_Assembly/button.png');
+    width: 88%;
+    height: 8.67%;
+    top: 22.75%;
+    background-size: 100% 100%;
 }
 
 #main_box {
     position: absolute;
+    background-size: 100% 100%;
     background-image: url('../Gui_portfolio_final/Menu_Assembly/background_generic.png');
     bottom: 3.5%;
     right: 3.1%;
-    height: 75.6%;
-    width: 75.5%;
+    height: 75.75%;
+    width: 75.625%;
 }
