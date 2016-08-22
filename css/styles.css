@@ -20,29 +20,47 @@ p {
 }
 
 #outer_nav_box {
+    /*this is an invisible box meant to help with spacing*/
     overflow: auto;
     height: 100%;
     width: 18.7%;
-    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/menu_frame.png');*/
 }
 
 #button_bg {
-    background-size: 100% 100%;
+    background-size: 66.5% 100%;
     background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/2 behind_button_boxes.png');
     margin-left: 23.7%;
     top: 23%;
+    background-position: center center;
     position: relative;
     height: 56%;
-    width: 58%;
+    width: 58.5%;
+    background-repeat: no-repeat;
 }
 
-#nav_bar button {
+.button {
     position: absolute;
-    background-image: url('../Gui_portfolio_final/Menu_Assembly/button.png');
-    width: 88%;
-    height: 8.67%;
-    top: 22.75%;
+    background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/5 non_selected_button.png');
+    width: 100%;
+    height: 15.5%;
+    top: 2%;
     background-size: 100% 100%;
+}
+
+#button2 {
+    top: 22%;
+}
+
+#button3 {
+    top: 42%;
+}
+
+#button4 {
+    top: 62%;
+}
+
+#button5 {
+    top: 82%;
 }
 
 #main_box {
