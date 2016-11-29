@@ -1,11 +1,10 @@
 html,
 body {
     height: 100%;
-    background-color: white;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
 }
-
-
-/*maybe we should use vector graphics and svg files?*/
 
 #bg {
     background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/1 background_main.png');
@@ -14,9 +13,11 @@ body {
     background-size: 100% 100%;
 }
 
-p {
-    color: white;
-    /*background-image: url('../Gui_portfolio_final/Menu_Assembly/background_generic.png');*/
+#TreyNolte {
+    font-size: 62px;
+    padding-top: 1%;
+    padding-left: 22%;
+    font-family: 'Gidugu';
 }
 
 #outer_nav_box {
@@ -24,6 +25,37 @@ p {
     overflow: auto;
     height: 100%;
     width: 18.7%;
+}
+
+img {
+    height: 200px;
+}
+
+#arrowLeft,
+#arrowRight {
+    padding: 30px;
+    height: 90px;
+    /*TODO: make the arrows align to the bottom of the div*/
+}
+
+#display p {
+    margin: 40px 50px 0px 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.wow {
+    font-size: 16px;
+    color: limegreen;
+    text-transform: uppercase;
+}
+
+a {
+    color: limegreen;
+}
+
+a:hover {
+    color: white;
 }
 
 #button_bg {
@@ -43,6 +75,15 @@ p {
     background-image: url('../Gui_portfolio_final/numbrd Menu Assembly/5 non_selected_button.png');
     width: 100%;
     height: 15.5%;
+    top: 2%;
+    background-size: 100% 100%;
+}
+
+.button p {
+    text-align: center;
+    font-size: 120%;
+    width: 100%;
+    height: 80%;
     top: 2%;
     background-size: 100% 100%;
 }
@@ -71,4 +112,11 @@ p {
     right: 3.1%;
     height: 75.75%;
     width: 75.625%;
+    text-align: center;
+}
+
+.visible p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
 }

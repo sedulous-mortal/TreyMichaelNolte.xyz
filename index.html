@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="TreyNolte" ng-controller="controller">
 
 <head>
     <meta charset="UTF-8">
@@ -12,34 +12,42 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 
 <body>
     <div id="bg">
-
-
+        <div id="TreyNolte">Trey Nolte</div>
         <div id="outer_nav_box">
             <div id="button_bg">
                 <div id="button1" class="button">
-                    <p>Button1</p>
+                    <div ng-click="switch()" class="{{overlay}}">
+                        <p id="Home">Home</p>
+                    </div>
                 </div>
                 <div id="button2" class="button">
-                    <p>Button2</p>
+                    <div ng-click="switch()" class="{{overlay}}">
+                        <p id="Portfolio">Portfolio</p>
+                    </div>
                 </div>
                 <div id="button3" class="button">
-                    <p>Button3</p>
+                    <div ng-click="switch()" class="{{overlay}}">
+                        <p id="Goals">Goals</p>
+                    </div>
                 </div>
                 <div id="button4" class="button">
-                    <p>Button4</p>
+                    <div ng-click="switch()" class="{{overlay}}">
+                        <p id="Refs">References</p>
+                    </div>
                 </div>
                 <div id="button5" class="button">
-                    <p>Button5</p>
+                    <div ng-click="switch()" class="{{overlay}}">
+                        <p id="Store">Store</p>
+                    </div>
                 </div>
 
             </div>
@@ -47,13 +55,19 @@
         </div>
 
         <div id="main_box">
-
+            <div id="display">
+                <h2>Homepage Display</h2>
+                <img src="imgs/trey.jpg" \>
+                <p>Hi, I'm Trey! </p>
+                <p>I am a <span class="wow">creative game designer</span> and artist, passionate about <span class="wow">high quality work</span> and the <span class="wow">structural integrity</span> of shared filesystems. I have been working in this field for over a year, and am looking for my next great challenge. If you are seeking an artist, please <a href="mailto:denm_blackfire@yahoo.com">contact me</a> at denm_blackfire@yahoo.com.</p>
+            </div>
         </div>
 
 
     </div>
 
     <script src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="js/app.js"></script>
 
 
