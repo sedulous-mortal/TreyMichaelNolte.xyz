@@ -30,7 +30,7 @@ $('#Home').click(function () {
     // this function is strict! :D
     //overwrite the "display" div
     $('#display').empty();
-    $('#display').append("<h2>Homepage Display</h2><img src=\"imgs/treyprofile.jpg\"><p>Hi, I'm Trey! </p><p>I am a <span class=\"wow\">creative game designer</span> and artist, passionate about <span class=\"wow\">high quality work</span> and the <span class=\"wow\">structural integrity</span> of shared filesystems. I have been working in this field for over a year, and am looking for my next great challenge. If you are seeking an artist, please <a href=\"mailto:denm_blackfire@yahoo.com\">contact me</a> at denm_blackfire@yahoo.com.</p>");
+    $('#display').append("<h2>Homepage Display</h2><img src=\"imgs/treyprofile1.jpg\"><p>Hi, I'm Trey! </p><p>I am a <span class=\"wow\">creative game designer</span> and artist, passionate about <span class=\"wow\">high quality work</span> and the <span class=\"wow\">structural integrity</span> of shared filesystems. I have been working in this field for over a year, and am looking for my next great challenge. If you are seeking an artist, please <a href=\"mailto:denm_blackfire@yahoo.com\">contact me</a> at denm_blackfire@yahoo.com.</p>");
 });
 
 //handler for onclick "Portfolio"
